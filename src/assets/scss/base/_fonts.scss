@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap';
+
+@mixin inter-font-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin inter-font-medium {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin inter-font-semiBold {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin inter-font-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin poppins-font-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin poppins-font-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin poppins-font-semiBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin poppins-font-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin typography-sm {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin typography-regular {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin typography-title {
+  font-size: 24px;
+  line-height: 29px;
+  &::first-letter{
+    text-transform: capitalize;
+  }
+}
+.atni-response-text{
+  @include typography-regular;
+}
+.atni-response-time{
+  @include typography-regular;
+  color: #767676;
+}

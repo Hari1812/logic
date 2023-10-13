@@ -1,0 +1,19 @@
+#{$app-prefix} {
+    &-tabs {
+        &--order-capture{
+            margin: 40px 0;
+            .nav-link{
+                @include typography-regular;
+                @include poppins-font-medium;
+                color: $grey-6;
+                padding-left: 20px;
+                padding-right: 40px;
+            }
+            .nav-item .active{
+                @include poppins-font-bold;
+                color: $primary-color;
+                background-color: transparent;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@mixin smooth-menu-hover {
+  transition: all 0.3s ease 0s;
+}
+
+/* ----------------------------------------------------
+Input & textarea placeholder mixin
+------------------------------------------------------ */
+@mixin input-placeholder {
+  &.placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+
+  &::-webkit-input-placeholder {
+    @content;
+  }
+}
+
+// ------primary scrollbar mixin
+@mixin primary-overflow {
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+
+    // background-color: #DCDADB;
+    background-color: $white-color;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+
+    // background-color: #EEECEC;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    // background-color: rgba(#DAE0E6,.5);
+    background-color: rgba(#DAE0E6, 0.85);
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(#DAE0E6, 0.8);
+  }
+}

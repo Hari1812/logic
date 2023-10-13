@@ -1,0 +1,11 @@
+#{$app-prefix}{
+  &-card {
+    &--bg-light {
+      background-color: $bg-gray;
+      border: 1px solid $white-1;
+      border-radius: 0;
+      padding: 32px;
+      margin-top: 32px;
+    }
+  }
+}

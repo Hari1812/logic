@@ -1,0 +1,15 @@
+#{$app-prefix}-footer {
+  padding: 10px;
+  background-color: $primary-color;
+  color: $white-color;
+  text-align: center;
+  font-size: 12px;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-bottom: 0;
+  }
+}

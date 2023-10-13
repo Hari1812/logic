@@ -1,0 +1,37 @@
+<p>tv works!</p>
+<div *ngIf="values?.length">
+    <ul>
+      <li *ngFor="let user of values">
+        {{ user.first_name }} - {{ user.email }}
+      </li>
+    </ul>
+  </div>
+<!-- app.component.html -->
+
+<!-- app.component.html -->
+
+<div class="container mt-4">
+  <input type="text" class="form-control mb-2" placeholder="Search" [(ngModel)]="searchText" (input)="filter()">
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col" (click)="sort('id')">ID</th>
+        <th scope="col" (click)="sort('first_name')">First Name</th>
+        <th scope="col" (click)="sort('last_name')">Last Name</th>
+        <th scope="col" (click)="sort('email')">Email</th>
+        <th scope="col">Image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredList">
+        <th scope="row">{{user.id}}</th>
+        <td>{{user.first_name}}</td>
+        <td>{{user.last_name}}</td>
+        <td>{{user.email}}</td>
+        <td><img [src]="user.avatar" alt="User Avatar" width="35" class="img-fluid mr-3"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

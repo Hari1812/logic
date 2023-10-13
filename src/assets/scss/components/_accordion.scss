@@ -1,0 +1,79 @@
+#{$app-prefix} {
+  &-accordion {
+    &--actions {
+      border: none;
+      .accordion-item {
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 10px;
+      }
+      
+      .accordion-button {
+        background-color: $white-color;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 0 !important;
+        padding: 20px 24px;
+        text-decoration: none;
+      }
+      .accordion-button:not(.collapsed) {
+        color:$black-color;
+      }
+      &__heading {
+        @include inter-font-medium;
+        @include typography-regular;
+        text-decoration: none;
+        margin-bottom: 0;
+        color:$black-color;
+        max-width: 85%;
+      }
+      &__label {
+        border-radius: 7px;
+        @include inter-font-bold;
+        font-size: 18px;
+        padding: 4px;
+        text-align: center;
+        width: 100%;
+        max-width: 97px;
+        min-height: 30px;
+        color: $white-color;
+        text-transform: uppercase;
+        margin-right: 24px;
+
+      }
+      .accordion-button::after {
+        display: none;
+      }
+      // .accordion-button:not(.collapsed)::after {
+      // }
+      .atni-btn--primary {
+        padding: 4px 24px;
+      }
+      &__morebtn{
+        position: absolute;
+        right: 10%;
+        top: 27%;
+        z-index: 200;
+      }
+      .accordion-body {
+        @include inter-font-regular;
+        font-size: 15px;
+        line-height: 21px;
+        color: $light-gray;
+        background-color: $bg-light-gray;
+      }
+      &__expand-sign{
+        &--minus{
+            display: none;
+        }
+      }
+       .accordion-button:not(.collapsed){
+        .atni-accordion--actions__expand-sign--minus{
+            display: inline-block;            
+        }
+        .atni-accordion--actions__expand-sign--plus{
+            display: none;
+        }
+      }
+    }
+  }
+}

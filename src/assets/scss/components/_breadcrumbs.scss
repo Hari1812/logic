@@ -1,0 +1,19 @@
+#{$app-prefix} {
+  &-breadcrumb {
+    margin-top: 56px;
+    margin-bottom: 32px;
+    &__item a{
+      @include inter-font-medium;
+      @include typography-regular;
+      color: $grey-6; 
+      text-decoration: none;
+        
+    }
+    .active{
+        @include inter-font-bold;
+        @include typography-regular;
+        color: $primary-color;
+        margin-top: 3px;
+      }
+  }
+}

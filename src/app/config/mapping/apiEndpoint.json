@@ -1,0 +1,8 @@
+{
+    "awsApi": {
+        "getUsersList": "/api/users?page=2"  
+    },
+    "cmsApi": {
+        "getUsersList": "/api/users?page=2"  
+    }
+}

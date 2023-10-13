@@ -1,0 +1,129 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+
+$white: #FFFFFF;
+$black: #000000;
+$gray-100: #F8F9FA;
+$gray-200: #E9ECEF;
+$gray-300: #DEE2E6;
+$gray-400: #CED4DA;
+$gray-500: #ADB5BD;
+$gray-600: #6C757D;
+$gray-700: #495057;
+$gray-800: #343A40;
+$gray-900: #212529;
+$grays: (
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "gray-500": $gray-500,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900
+);
+$primary: #1C2F72;
+$secondary: #419ECF;
+$tertiary: #666666;
+$info: #6192DB;
+$danger: #DB6861;
+$warning: #DBC061;
+$success: #A8C36F;
+$light:#F9FAFB;
+$theme-colors: ("primary": $primary,"secondary": $secondary,"success": $success,"info": $info,"warning": $warning,"danger": $danger,"tertiary":$tertiary,"light":$light);
+$body-color: #666666;
+$body-bg: #FFFFFF;
+$text-muted: #A1A1A1;
+$link-color: #007BFF;
+$link-hover-color: #007BFF;
+$font-family-base: "Poppins", sans-serif;
+$font-family-base-secondary: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-size-base: 1rem;
+$font-weight-base: 400rem;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+$headings-margin-bottom: 10px;
+$btn-padding-x: 0.75rem;
+$btn-padding-y: 0.375rem;
+$btn-font-size: 1rem;
+$btn-border-width: 1px;
+$btn-font-weight: 600;
+$btn-line-height: 1.35;
+$btn-link-disabled-color: #6C757D;
+$btn-border-radius: 4px;
+$input-font-size: 1rem;
+$input-padding-y: 0.375rem;
+$input-padding-x: 0.75rem;
+$input-border-color: #666666;
+$input-placeholder-color: #BDBDBD;
+$input-btn-focus-color: nan;
+$input-focus-border-color: nan;
+$mtds-select-padding-y: 0.35rem;
+$input-border-radius: 1px;
+$dropdown-font-size: 1rem;
+$dropdown-link-active-bg: #1E1E51;
+$dropdown-bg: #E0E0E0;
+$dropdown-item-padding-x: 1rem;
+$list-group-active-bg: #1E1E51;
+$nav-pills-link-active-bg: #1E1E51;
+$navbar-padding-y: 1.2rem;
+$navbar-dark-hover-color: #FFFFFF;
+$navbar-light-hover-color: #1E1E51;
+$mtds-navbar-nav-item-padding-x: 0.5rem;
+$mtds-navbar-link-active-font-weight: 700;
+$pagination-padding-y: 0.25rem;
+$pagination-padding-x: 0.5rem;
+$pagination-color: #C4C4C4;
+$pagination-hover-color: #1E1E51;
+$pagination-active-color: #1E1E51;
+$pagination-bg: #FFFFFF;
+$pagination-border-color: #DDDDDD;
+$card-spacer-y: 1rem;
+$card-spacer-x: 1rem;
+$card-border-color: #DDDDDD;
+$card-bg: #FFFFFF;
+$card-img-overlay-padding: 1rem;
+$jumbotron-padding: 2rem;
+$jumbotron-bg: #FFFFFF;
+$progress-height:                   18px;
+$progress-bg:                       #e8e8e8;
+$progress-border-radius:            100px;
+$progress-font-size: 1rem;
+$progress-bar-bg: #1E1E51;
+$progress-circle-border-width: 8px;
+$progress-circle-animation-time: 0.5s;
+$progress-circle-border-color: #FFFFFF;
+$progress-circle-border-color-fill: #1E1E51;
+$progress-circle-size: 6.125rem;
+$progress-circle-steps: 100;
+$alert-padding-y: 1.125rem;
+$alert-padding-x: 1.5rem;
+$alert-color-level: -12.5;
+$toast-color: #6C757D;
+$toast-padding-x: 1.25rem;
+$breadcrumb-item-padding: 0.75rem;
+$breadcrumb-divider-color: #666666;
+$breadcrumb-active-color: #666666;
+$carousel-control-color: #1E1E51;
+$carousel-indicator-width: 6px;
+$carousel-indicator-height: 6px;
+$carousel-indicator-spacer: 5px;
+$carousel-indicator-active-bg: #1E1E51;
+$modal-content-border-width: 1px;
+$modal-inner-padding: 0.75rem;
+$modal-lg: 800px;
+$modal-md: 500px;
+$modal-sm: 300px;
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$navbar-light-color: rgba($primary, 0.75);
+$navbar-dark-color: rgba($white, 0.75);
+$pagination-hover-bg: rgba($secondary, 0.1);
+$grid-breakpoints: (xs:0,sm:576px,md:768px,lg:992px,xl:1200px);
+$container-max-widths: (sm:540px,md:720px,lg:960px,xl:1140px);
+$breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='10'%3E%3Cpath d='M0 10L5 5L0 0L0 10Z' fill='#767676'/%3E%3C/svg%3E");
+
